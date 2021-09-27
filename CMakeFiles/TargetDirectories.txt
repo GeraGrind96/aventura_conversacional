@@ -1,0 +1,5 @@
+/home/gerardo/Workspace/componentes_giraff/aventura_conversacional/CMakeFiles/rebuild_cache.dir
+/home/gerardo/Workspace/componentes_giraff/aventura_conversacional/CMakeFiles/edit_cache.dir
+/home/gerardo/Workspace/componentes_giraff/aventura_conversacional/src/CMakeFiles/rebuild_cache.dir
+/home/gerardo/Workspace/componentes_giraff/aventura_conversacional/src/CMakeFiles/edit_cache.dir
+/home/gerardo/Workspace/componentes_giraff/aventura_conversacional/src/CMakeFiles/ICES__home_gerardo_Workspace_componentes_giraff_aventura_conversacional_src.dir

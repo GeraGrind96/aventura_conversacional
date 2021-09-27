@@ -1,0 +1,50 @@
+[
+    {
+        "line_name" : "start",
+        "next_possible_lines" : ["música", "viajar", "cocina", "fin"],
+        "past_line" : "",      
+        "phrase" : "¿De qué te apetece hablar?",
+        "emotion" : 0,
+        "binary" : 0
+    },
+    {
+        "line_name" : "musica",
+        "next_possible_lines" : ["instrumentos", "estilos", "conciertos", "fin"],
+        "past_line" : "start",      
+        "phrase" : "Perfe, hablemos de música.",
+        "emotion" : 0,
+        "binary" : 0
+    },
+    {
+        "line_name" : "instrumentos",
+        "next_possible_lines" : ["instrumentos_si", "instrumentos_no", "fin"],
+        "past_line" : "musica",      
+        "phrase" : "Me gusta mucho tocar la guitarra. ¿Tocas algún instrumento?.",
+        "emotion" : 0,
+        "binary" : 1
+    },
+    {
+        "line_name" : "estilos",
+        "next_possible_lines" : ["estilos_metal", "estilos_rap", "estilos_rock", "fin"],
+        "past_line" : "musica",      
+        "phrase" : "¿qué estilo de música te gusta? A mí me ha dado por el jevi últimamente.",
+        "emotion" : 0,
+        "binary" : 0
+    },
+    {
+        "line_name" : "conciertos",
+        "next_possible_lines" : ["festivales_si", "festivales_no", "fin"],
+        "past_line" : "musica",      
+        "phrase" : "echo mucho de menos ir a festivales. ¿te gusta ir a conciertos?",
+        "emotion" : 0,
+        "binary" : 1
+    },
+    {
+        "line_name" : "fin",
+        "next_possible_lines" : [],
+        "past_line" : "",      
+        "phrase" : "Vale. Nos vemos pronto.",
+        "emotion" : 0,
+        "binary" : 0
+    }
+]
